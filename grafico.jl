@@ -43,7 +43,7 @@ while opcao != "0" #loop
 
         savefig("gastos.png")
     elseif opcao =="2"
-        for b = 1:12
+        for b = 1:12 # configura um loop que itera sobre um intervalo de valores de 1 a 12 (inclusive), usando a variável 'b' como contador de loop.
             mes =meses[b]
             print("$mes:")
             global ganhos[b] = parse(Float64, readline(stdin))
@@ -58,7 +58,7 @@ while opcao != "0" #loop
         savefig("ganhos.png")
     elseif opcao =="3"
         print("Se não trabalhou por favor deixar o dia em branco e precionar enter \n")
-        for c = 1:7 
+        for c = 1:7 # configura um loop que itera sobre um intervalo de valores de 1 a 7 (inclusive), usando a variável 'c' como contador de loop.
             dia = semana[c]
             print("digite aqui,$semana:")
             global horas[c] = parse(Int64, readline(stdin))
