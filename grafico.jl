@@ -7,7 +7,7 @@ ganhos = zeros(12)
 horas = zeros(7)
 
 while opcao != "0" #loop
-    print(red, """
+    print( """
  
     
 ╔═╗┌─┐┬─┐┌─┐┌┬┐┌─┐┬─┐  ┌┬┐┌─┐  ╔═╗┬─┐┌─┐┌─┐┬┌─┐┌─┐┌─┐
@@ -56,7 +56,6 @@ while opcao != "0" #loop
         marker=:circle,
         markercolormap =:viridis)
         savefig("ganhos.png")
-
     elseif opcao =="3"
         print("Se não trabalhou por favor deixar o dia em branco e precionar enter \n")
         for c = 1:7 
