@@ -1,4 +1,4 @@
-# gerador_de_graficos
+# Gerador de gráficos
 
 
 Criando Gráficos com a linguagem Julia. Com o pacote Plots, que oferece uma API consistente para vários backends gráficos.
