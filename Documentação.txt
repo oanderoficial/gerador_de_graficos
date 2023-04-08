@@ -1,0 +1,21 @@
+Documentação do Código
+Este código é um programa simples que permite ao usuário selecionar entre três opções: criar um gráfico de gastos durante o ano, criar um gráfico de ganhos durante o ano ou criar um gráfico de horas trabalhadas na semana. O programa utiliza a biblioteca Plots para gerar gráficos.
+
+Variáveis utilizadas
+opcao: string que armazena a opção selecionada pelo usuário.
+meses: array de strings que contém os nomes dos meses do ano.
+semana: array de strings que contém os nomes dos dias da semana.
+despesas: array de floats que armazena os valores de gastos durante cada mês do ano.
+ganhos: array de floats que armazena os valores de ganhos durante cada mês do ano.
+horas: array de inteiros que armazena as horas trabalhadas em cada dia da semana.
+Fluxo do programa
+O programa começa com um loop while que executa até que o usuário selecione a opção 0 para sair. Dentro do loop, o programa exibe um menu com três opções e solicita ao usuário que selecione uma delas.
+
+Em seguida, o programa utiliza uma estrutura de seleção if para executar o código correspondente à opção selecionada pelo usuário. Para as opções 1 e 2, o programa solicita ao usuário que insira os valores de gastos ou ganhos para cada mês do ano, respectivamente, e, em seguida, gera um gráfico de barras com os valores inseridos e salva a figura em um arquivo PNG.
+
+Para a opção 3, o programa solicita ao usuário que insira as horas trabalhadas em cada dia da semana e, em seguida, gera um gráfico de linha com os valores inseridos e salva a figura em um arquivo PNG.
+
+Se o usuário selecionar uma opção inválida, o programa exibe uma mensagem de erro e solicita que o usuário tente novamente.
+
+Bibliotecas utilizadas
+O programa utiliza apenas a biblioteca Plots para gerar os gráficos.
